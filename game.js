@@ -16,7 +16,7 @@ let game_over = false;
 function main(currentTime) {
   if (game_over) {
     if (confirm("Game Over! Press Ok To Restart")) {
-      window.location = "/";
+      window.location = "https://eliasadmaso1.github.io/Snake/";
     }
     return;
   }
