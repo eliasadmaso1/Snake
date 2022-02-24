@@ -28,16 +28,93 @@
         }
         .snake{
             background-color: black;
-            width: 40px;
-            height: 40px;
+          
 
         }
         .food{
             background-color: black;
-            width: 20px;
-            height: 20px;
+          
 
 
+
+        }
+
+       
+
+        @media screen and (max-width: 500px) {
+            #up{
+            background-color: white;
+            width: 30px;
+            height: 30px;
+            font-size: 10px;
+            border: solid 2px #99cc00;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 5px;
+        }
+        #down{
+            background-color: white;
+            width: 30px;
+            height: 30px;
+            font-size: 10px;
+            border: solid 2px #99cc00;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 20px;
+
+        }
+        #left{
+            background-color: white;
+            width: 30px;
+            height: 30px;
+            font-size: 10px;
+            border: solid 2px #99cc00;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: -16%;
+            margin-right: 25%;
+
+
+        }
+        #right{
+            background-color: white;
+            width: 30px;
+            height: 30px;
+            font-size: 10px;
+            border: solid 2px #99cc00;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: -8.5%;
+            margin-left: 25%;
+
+        }
+       
+        .food{
+            background-color: black;
+         }
+         .snake{
+            background-color: black;
+        
+
+        }
+        #container{
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            margin-left: -27.6%;
+        }
+        #game-board{
+            margin-top: -59%;
+        }
+        
+      
 
         }
       
@@ -46,7 +123,17 @@
 </head>
 <body>
     <h1>SNAKE</h1>
+    <div id="container">
         <div id="game-board"></div>
+        <div id="up">UP</div>
+        <div id="down">DOWN</div>
+        <div id="left">LEFT</div>
+        <div id="right">RIGHT</div>
+
+    </div>
+      
+
+        
   
 
 </body>
